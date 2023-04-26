@@ -69,3 +69,8 @@ img {
   font-size: 15px;
   transition: background-color 0.2s ease-in;
 }
+
+.buttons .btn:hover {
+  background-color: hsl(216, 12%, 54%);
+  color: #333;
+}
