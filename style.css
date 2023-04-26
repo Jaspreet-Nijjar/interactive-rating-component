@@ -74,3 +74,8 @@ img {
   background-color: hsl(216, 12%, 54%);
   color: #333;
 }
+
+#result {
+  text-align: center;
+  margin-top: 20px;
+}
