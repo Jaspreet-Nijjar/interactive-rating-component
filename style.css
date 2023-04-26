@@ -57,3 +57,15 @@ p {
 button {
   cursor: pointer;
 }
+
+.btn,
+img {
+  border: none;
+  border-radius: 50%;
+  background-color: hsl(216, 12%, 15%);
+  color: hsl(216, 12%, 54%);
+  padding: 20px;
+  margin: 0 10px;
+  font-size: 15px;
+  transition: background-color 0.2s ease-in;
+}
