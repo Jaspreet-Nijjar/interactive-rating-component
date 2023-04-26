@@ -31,3 +31,29 @@ p {
   color: hsl(216, 12%, 54%);
   margin-top: 10px;
 }
+
+.submit,
+.reset {
+  text-transform: uppercase;
+  width: 100%;
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  margin-top: 30px;
+  transition: background-color 0.5s ease-in;
+}
+
+.reset {
+  display: none;
+}
+
+.submit:hover,
+.reset:hover {
+  background-color: hsl(25, 97%, 30%);
+}
+
+button {
+  cursor: pointer;
+}
