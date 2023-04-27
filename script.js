@@ -15,3 +15,18 @@ buttons.forEach((button, clickedIndex) => {
     });
   });
 });
+
+submitBtn.addEventListener('click', () => {
+  buttons.forEach((button) => {
+    if (button.classList.contains('active')) {
+      output.innerHTML = `<p>Thank you for submitting your rating</p>`;
+      submitBtn.style.display = 'none';
+      resetBtn.style.display = 'block';
+
+      buttons.forEach((button) => {
+        button.classList.remove('active');
+        button.disabled = true;
+      });
+    }
+  });
+});
