@@ -30,3 +30,12 @@ submitBtn.addEventListener('click', () => {
     }
   });
 });
+
+resetBtn.addEventListener('click', () => {
+  output.innerHTML = '';
+  buttons.forEach((button) => {
+    button.disabled = false;
+  });
+  submitBtn.style.display = 'block';
+  resetBtn.style.display = 'none';
+});
